@@ -1,4 +1,4 @@
-# top_bomber
+# dblbomb
 Это мощный sms bomber у которого в запасе целых 50 сервисов для отправки sms, и 1 сервис на звонок!
 # Install
 git clone https://github.com/UpgradelifeLab/dblbomb
